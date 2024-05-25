@@ -1,6 +1,6 @@
 package com.hibernateexercises.model.base;
 
-import com.hibernateapp.converter.BirthdayConverter;
+import com.hibernateexercises.converter.BirthdayConverter;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
