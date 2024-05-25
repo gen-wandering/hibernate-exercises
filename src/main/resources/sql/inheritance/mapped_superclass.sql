@@ -1,0 +1,5 @@
+CREATE TABLE cars
+(
+    id    SERIAL PRIMARY KEY,
+    brand VARCHAR(25) NOT NULL
+);

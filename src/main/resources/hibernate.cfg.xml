@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">mypass</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+
+        <mapping class="com.hibernateapp.model.base.User"/>
+        <mapping class="com.hibernateapp.model.base.Book"/>
+
+        <!--<mapping class="com.hibernateapp.model.inheritance.mappedsuperclass.Car"/>-->
+
+        <!--<mapping class="com.hibernateapp.model.inheritance.tableperclass.Person"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.tableperclass.Programmer"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.tableperclass.Manager"/>-->
+
+        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.Person"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.Programmer"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.Manager"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.CEO"/>-->
+
+        <!--<mapping class="com.hibernateapp.model.inheritance.joined.Person"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.joined.Programmer"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.joined.Manager"/>-->
+        <!--<mapping class="com.hibernateapp.model.inheritance.joined.CEO"/>-->
+
+        <mapping class="com.hibernateapp.model.collectionmapping.Profile"/>
+
+        <!--<mapping class="com.hibernateapp.model.entitygraph.Author"/>-->
+        <!--<mapping class="com.hibernateapp.model.entitygraph.Comment"/>-->
+        <!--<mapping class="com.hibernateapp.model.entitygraph.Post"/>-->
+
+        <mapping class="com.hibernateapp.model.locking.optimistic.Purchase"/>
+        <mapping class="com.hibernateapp.model.locking.pessimistic.Payment"/>
+    </session-factory>
+</hibernate-configuration>
