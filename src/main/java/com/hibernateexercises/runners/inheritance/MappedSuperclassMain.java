@@ -1,7 +1,7 @@
 package com.hibernateexercises.runners.inheritance;
 
-import com.hibernateapp.model.inheritance.mappedsuperclass.Car;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.inheritance.mappedsuperclass.Car;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
