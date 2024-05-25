@@ -1,15 +1,15 @@
 package com.hibernateexercises.runners;
 
-import com.hibernateapp.model.base.Birthday;
-import com.hibernateapp.model.base.Roles;
-import com.hibernateapp.model.base.User;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.base.Birthday;
+import com.hibernateexercises.model.base.Roles;
+import com.hibernateexercises.model.base.User;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
 import java.time.LocalDate;
 
-import static com.hibernateapp.util.HibernateLifecycleUtil.getManagedEntities;
+import static com.hibernateexercises.util.HibernateLifecycleUtil.getManagedEntities;
 
 /*
  * On call to transaction commit() or flush(),

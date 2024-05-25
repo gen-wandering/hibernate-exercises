@@ -1,7 +1,7 @@
 package com.hibernateexercises.runners;
 
-import com.hibernateapp.model.collectionmapping.Profile;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.collectionmapping.Profile;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

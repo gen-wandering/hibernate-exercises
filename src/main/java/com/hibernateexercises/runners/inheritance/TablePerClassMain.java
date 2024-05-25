@@ -1,9 +1,9 @@
 package com.hibernateexercises.runners.inheritance;
 
-import com.hibernateapp.model.inheritance.tableperclass.Manager;
-import com.hibernateapp.model.inheritance.tableperclass.Person;
-import com.hibernateapp.model.inheritance.tableperclass.Programmer;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.inheritance.tableperclass.Manager;
+import com.hibernateexercises.model.inheritance.tableperclass.Person;
+import com.hibernateexercises.model.inheritance.tableperclass.Programmer;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

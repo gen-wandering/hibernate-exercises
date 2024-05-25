@@ -1,10 +1,10 @@
 package com.hibernateexercises.runners.inheritance;
 
-import com.hibernateapp.model.inheritance.singletable.CEO;
-import com.hibernateapp.model.inheritance.singletable.Manager;
-import com.hibernateapp.model.inheritance.singletable.Person;
-import com.hibernateapp.model.inheritance.singletable.Programmer;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.inheritance.singletable.CEO;
+import com.hibernateexercises.model.inheritance.singletable.Manager;
+import com.hibernateexercises.model.inheritance.singletable.Person;
+import com.hibernateexercises.model.inheritance.singletable.Programmer;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

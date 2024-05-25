@@ -1,7 +1,7 @@
 package com.hibernateexercises.runners;
 
-import com.hibernateapp.model.entitygraph.Post;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.entitygraph.Post;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.graph.GraphSemantic;

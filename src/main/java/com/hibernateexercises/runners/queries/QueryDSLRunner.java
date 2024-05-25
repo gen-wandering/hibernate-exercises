@@ -1,8 +1,8 @@
 package com.hibernateexercises.runners.queries;
 
-import com.hibernateapp.model.base.QUser;
-import com.hibernateapp.model.base.User;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.base.QUser;
+import com.hibernateexercises.model.base.User;
+import com.hibernateexercises.util.HibernateUtil;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.types.Order;
 import com.querydsl.core.types.OrderSpecifier;

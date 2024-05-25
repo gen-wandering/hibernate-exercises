@@ -1,7 +1,7 @@
 package com.hibernateexercises.runners.queries;
 
-import com.hibernateapp.model.base.User;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.base.User;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

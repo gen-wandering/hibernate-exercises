@@ -1,7 +1,7 @@
 package com.hibernateexercises.runners.locking;
 
-import com.hibernateapp.model.locking.pessimistic.Payment;
-import com.hibernateapp.util.HibernateUtil;
+import com.hibernateexercises.model.locking.pessimistic.Payment;
+import com.hibernateexercises.util.HibernateUtil;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
