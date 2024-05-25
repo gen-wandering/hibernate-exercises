@@ -12,32 +12,32 @@
         <property name="format_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
 
-        <mapping class="com.hibernateapp.model.base.User"/>
-        <mapping class="com.hibernateapp.model.base.Book"/>
+        <mapping class="com.hibernateexercises.model.base.User"/>
+        <mapping class="com.hibernateexercises.model.base.Book"/>
 
-        <!--<mapping class="com.hibernateapp.model.inheritance.mappedsuperclass.Car"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.mappedsuperclass.Car"/>-->
 
-        <!--<mapping class="com.hibernateapp.model.inheritance.tableperclass.Person"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.tableperclass.Programmer"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.tableperclass.Manager"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.tableperclass.Person"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.tableperclass.Programmer"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.tableperclass.Manager"/>-->
 
-        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.Person"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.Programmer"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.Manager"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.singletable.CEO"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.singletable.Person"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.singletable.Programmer"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.singletable.Manager"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.singletable.CEO"/>-->
 
-        <!--<mapping class="com.hibernateapp.model.inheritance.joined.Person"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.joined.Programmer"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.joined.Manager"/>-->
-        <!--<mapping class="com.hibernateapp.model.inheritance.joined.CEO"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.joined.Person"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.joined.Programmer"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.joined.Manager"/>-->
+        <!--<mapping class="com.hibernateexercises.model.inheritance.joined.CEO"/>-->
 
-        <mapping class="com.hibernateapp.model.collectionmapping.Profile"/>
+        <mapping class="com.hibernateexercises.model.collectionmapping.Profile"/>
 
-        <!--<mapping class="com.hibernateapp.model.entitygraph.Author"/>-->
-        <!--<mapping class="com.hibernateapp.model.entitygraph.Comment"/>-->
-        <!--<mapping class="com.hibernateapp.model.entitygraph.Post"/>-->
+        <!--<mapping class="com.hibernateexercises.model.entitygraph.Author"/>-->
+        <!--<mapping class="com.hibernateexercises.model.entitygraph.Comment"/>-->
+        <!--<mapping class="com.hibernateexercises.model.entitygraph.Post"/>-->
 
-        <mapping class="com.hibernateapp.model.locking.optimistic.Purchase"/>
-        <mapping class="com.hibernateapp.model.locking.pessimistic.Payment"/>
+        <mapping class="com.hibernateexercises.model.locking.optimistic.Purchase"/>
+        <mapping class="com.hibernateexercises.model.locking.pessimistic.Payment"/>
     </session-factory>
 </hibernate-configuration>
